@@ -9,5 +9,5 @@ var person = {
 //drawPerson(person)
 
 function drawPerson(person) {
-  
+  $(.personcontainer).append(person.name)
 }
