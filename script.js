@@ -6,8 +6,8 @@ var person = {
   catchphrase: "Get pumped!"
 }
 
-//drawPerson(person)
+drawPerson(person)
 
 function drawPerson(person) {
-  $(.personcontainer).append(person.name)
+  $(".person-container").append(person.name);
 }
