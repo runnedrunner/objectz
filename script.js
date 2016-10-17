@@ -11,5 +11,8 @@ drawPerson(person)
 function drawPerson(person) {
   $(".name").html(person.name);
 //  $(".image").html("<img src='" + person.representaion + "'height = '" + person.height + "'>");
-  $("#image").attr("src", person.representation);  
+  $("#image").attr("src", person.reprsentation);
+  $("#image").attr("height", person.height);
+  
+
 }
