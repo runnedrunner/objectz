@@ -9,9 +9,7 @@ var person = {
 drawPerson(person)
 
 function drawPerson(person) {
-  $(".person-container").append(person.name);
-//  $(".person-container").append("<img src='" + person.representaion + "'>");
-  $(".person-container").append("<img src='https://upload.wikimedia.org/wikipedia/commons/f/f9/Phoenicopterus_ruber_in_S%C3%A3o_Paulo_Zoo.jpg'");
-
+  $(".person-container").html(person.name);
+  $(".person-container").html("<img src='" + person.representaion + "'>");
 
 }
