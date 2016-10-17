@@ -4,12 +4,12 @@ var person = {
   height: "500px",	
   favoriteColor: "red",
   catchphrase: "Get pumped!"
-
+}
 drawPerson(person)
 
 function drawPerson(person) {
   $(".name").html(person.name);
-  $("
+  $("#image").attr("src", person.reprsentatio)
   
 
 }
