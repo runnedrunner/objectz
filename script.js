@@ -13,6 +13,10 @@ function drawPerson(person) {
 //  $(".image").html("<img src='" + person.representaion + "'height = '" + person.height + "'>");
   $("#image").attr("src", person.reprsentation);
   $("#image").attr("height", person.height);
+  $("#image").attr({
+    src: person.representation,
+    title: "photo by Kelly Clark"
+  });
   
 
 }
