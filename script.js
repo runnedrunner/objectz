@@ -1,6 +1,6 @@
 var person = {
   name: "Austin",
-  representation: "http://i.dailymail.co.uk/i/pix/2016/03/14/19/322C3FA100000578-0-image-a-13_1457982438669.jpg",
+  representation: "https://c1.staticflickr.com/5/4034/4544827697_6f73866999_b.jpg",
   height: "500px",	
   favoriteColor: "red",
   catchphrase: "Get pumped!"
