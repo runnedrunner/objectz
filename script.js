@@ -11,7 +11,9 @@ function drawPerson(person) {
   $(".name").html(person.name);
   $("#image").attr("src", person.representation);
   $("#image").attr("height", person.height);
-  $(".image").css("border-color", person.favoriteColor);
+  $("#image").css("border-color", person.favoriteColor);
+  $(".quote").html(person.catchphrase);
+
   
 
 }
