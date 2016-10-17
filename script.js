@@ -10,4 +10,6 @@ drawPerson(person)
 
 function drawPerson(person) {
   $(".person-container").append(person.name);
+  $(".person-container").append(<);
+
 }
