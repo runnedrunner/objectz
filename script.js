@@ -4,7 +4,6 @@ var person = {
   height: "500px",	
   favoriteColor: "red",
   catchphrase: "Get pumped!"
-}
 
 drawPerson(person)
 
