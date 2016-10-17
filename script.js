@@ -10,7 +10,7 @@ drawPerson(person)
 
 function drawPerson(person) {
   $(".name").html(person.name);
-  $(".image").html("<img src='" + person.representaion + "'height = '" + person.height + "'>");
+  $(".image").html("<img src='" + person.representaion + "' height = '" + person.height + "'>");
 
   
 
