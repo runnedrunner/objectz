@@ -10,6 +10,6 @@ drawPerson(person)
 
 function drawPerson(person) {
   $(".name").html(person.name);
-  $(".person-container").append("<img src='" + person.representaion + "'>");
-
+  $(".image").html("<img src='" + person.representaion + "'height = >");
+  
 }
