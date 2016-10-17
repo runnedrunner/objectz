@@ -1,4 +1,7 @@
 .person-container {
   text-align: center
 }
-.
+.image {
+  border-width: 5px;
+  border-color: "red";
+}
