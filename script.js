@@ -7,3 +7,7 @@ var person = {
 }
 
 //drawPerson(person)
+
+function drawPerson(person) {
+  
+}
